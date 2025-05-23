@@ -38,4 +38,4 @@ and most are self-explanatory. Key flags include:
 Default to ``None``, which corresponds to standard DPGD/DPSGD (no preconditioning). Set this to use a specific matrix for Cond-DP. 
 - ``--mlp_layers``: Specifies the hidden layer sizes in an MLP-based prediction layer.
 Default to ``None``, which corresponds to private linear regression without MLP layers.  
-- ``--data_dir``: The name of the dataset folder that contains the four files mentioned above.
+- ``--data_dir``: Path to the dataset folder that contains the four files mentioned above.
